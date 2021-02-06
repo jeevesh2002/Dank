@@ -1,4 +1,4 @@
-# dankmemerbot
+# dank
 Bot to play the discord "Dank memer" bot game
 
 ## Running the bot
@@ -6,7 +6,7 @@ Bot to play the discord "Dank memer" bot game
 ### Dependencies
 - pynput: `pip install pynput`
 
-Run the dank.py file, you have 5 seconds to put your text cursor on your discord message box.
+Run the dank.py file, you have 10 seconds to put your text cursor on your discord message box.
 
 ## Options
 
