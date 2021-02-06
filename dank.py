@@ -9,14 +9,15 @@ from bot import bot, findHCF, findLCM
 # delcare the necessary information, change if necessary
 # Commands need to be functions (no parameters)
 
-postmeme = lambda: "pls postmeme\n"+ choice(["f", "r", "i", "c", "k"]) + "\n"
-postmeme = lambda: "pls hl\n"+ choice(["high", "low"]) + "\n"
+postmeme = lambda: "pls postmeme\n"+ choice(["f", "r", "i", "c", "k"]) + "\n" 
+
 OPTIONS = [
     {"command": postmeme, "reset_time": 50},
     {"command": lambda: "pls fish\n", "reset_time": 50},
     {"command": lambda: "pls beg\n", "reset_time": 50},
     {"command": lambda: "pls hunt\n", "reset_time": 50},
     {"command": lambda: "pls dep max\n", "reset_time": 50},
+    {"command": lambda: "pls hl\n"+ choice(["high", "low"]) + "\n", "reset_time": 50}
 ]
 
 # Choose the key to terminate the program
